@@ -1,0 +1,215 @@
+body{
+    background-color: burlywood;
+    font-size: x-large;
+}
+header{
+    text-align: center;
+}
+
+#heading1 {
+    background-color: deeppink;
+    align-items: center;
+    display: inline-flex;
+    text-transform: uppercase;
+}
+main{
+    display: inline;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: uppercase;
+}
+section>strong {
+    background: chartreuse;
+    margin: 20px;
+    padding: 3px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid black
+}
+#span1{
+    background-color: chocolate;
+    border: 2px solid black;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+button{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    color: blue;
+    font-size: x-large;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+button:focus {
+    background-color: red;
+}
+h1::shadow {
+    background-color: blue;
+}
+button:hover {
+    background-color: darkmagenta;
+    transition-duration: 1s;
+}
+.calculator-result{
+    color: darkmagenta;
+}
+.pencentage{
+    color: gold;
+    background-color: darkcyan;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    height: 50%;
+    cursor: alias;
+    padding: 2px;
+}
+.value1, .valuec, .value3{
+    border: 2px solid orchid;
+    height: 50%;
+    border-radius: 5px;
+    background-color: chocolate;
+    cursor: grab;
+    padding: 2px;
+}
+.value2{
+    border: 2px solid olive;
+    height: 50%;
+    border-radius: 5px;
+    background-color: darkred;
+    color: cyan;
+    cursor: help;
+    padding: 2px;
+}
+.number1~.number3{
+    color: cadetblue;
+    background-color: deeppink;
+    border: 2px solid cornflowerblue;
+    border-radius: 5px;
+    height: 50%;
+    cursor: text;
+    padding: 2px;
+}
+.number3+.value3{
+    border: 2px solid green;
+    height: 50%;
+    border-radius: 5px;
+    background-color: peru;
+    color: lightskyblue;
+    cursor: pointer;
+    padding: 2px;
+}
+.even-number{
+    border: 2px solid saddlebrown;
+    height: 50%;
+    border-radius: 5px;
+    background-color: rgb(146, 194, 13);
+    cursor: cell;
+    color: darkgoldenrod;
+    padding: 2px;
+}
+.even-number2,.even-number3{
+    border: 2px solid white;
+    height: 50%;
+    border-radius: 5px;
+    background-color: navy;
+    color: coral;
+    cursor: all-scroll;
+    padding: 2px;
+
+}
+.even-number4{
+    border: 2px solid white;
+    height: 50%;
+    border-radius: 5px;
+    background-color: teal;
+    color: snow;
+    cursor: crosshair;
+    padding: 2px;
+
+}
+.my-number .number1{
+    border: 2px solid white;
+    height: 50%;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: blueviolet;
+    cursor: copy;
+    padding: 2px;
+}
+.number7:focus{
+    color: deeppink;
+    padding: 2px;
+}
+.number7,.number9,.numb1{
+    border: 2px solid royalblue;
+    height: 50%;
+    border-radius: 5px;
+    background-color: slateblue;
+    color: snow;
+    cursor: progress;
+    padding: 2px;
+
+}
+.number5~.sign2{
+    border: 2px solid rebeccapurple;
+    height: 50%;
+    border-radius: 5px;
+    background-color: lightgreen;
+    color: goldenrod;
+    cursor: vertical-text;
+    padding: 2px;
+}
+.number5,.sign6{
+    border: 2px solid black;
+    height: 50%;
+    border-radius: 5px;
+    background-color: hotpink;
+    color: wheat;
+    cursor: s-resize;
+    padding: 2px;
+}
+.cal-keys .numb3{
+    border: 2px solid rosybrown;
+    height: 50%;
+    border-radius: 5px;
+    background-color: firebrick;
+    color: seashell;
+    cursor: copy;
+    padding: 2px;
+}
+.sign1,.sign3{
+    border: 2px solid white;
+    height: 50%;
+    border-radius: 5px;
+    background-color: violet;
+    color: crimson;
+    cursor: row-resize;
+    padding: 2px;
+}
+.value~.sign5{
+    border: 2px solid aqua;
+    height: 50%;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: darkkhaki;
+    cursor: grabbing;
+    padding: 2px;
+}
+.sign4{
+    border: 2px solid salmon;
+    height: 50%;
+    border-radius: 5px;
+    background-color: fuchsia;
+    color: skyblue;
+    cursor: move
+}
+.value{
+    border-radius: 5px;
+    cursor: zoom-out;
+    padding: 2px;
+}
