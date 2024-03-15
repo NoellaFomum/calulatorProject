@@ -1,6 +1,10 @@
 body{
-    background-color: burlywood;
+    background-color: #deb887;
     font-size: x-large;
+    background-image: url(https://cdn.mos.cms.futurecdn.net/FRdq8ZbPetwNDRV9R3hYpP-650-80.jpg.webp);
+    background-size: cover;
+    padding: 35px;
+
 }
 header{
     text-align: center;
